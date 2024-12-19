@@ -15,7 +15,7 @@ body {
 /* Top Header Section */
 .header-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-start;
   background-color: #314b57;
   color: white;
@@ -70,7 +70,7 @@ body {
   width: 100%;
   max-width: 250px;
   height: 220px;
-  position:sticky;
+  position: sticky;
 }
 
 /* Service Area Section */
@@ -81,7 +81,7 @@ body {
   padding-right: 50px;
 }
 
-.service-area h2 {;
+.service-area h2 {
   font-size: 1.8rem;
   color: #ab3c3c;
   margin-bottom: 20px;
@@ -147,6 +147,70 @@ body {
   color: #ab3c3c;
   margin-top: 10px;
 }
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+  /* Adjust the icons layout */
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px; 
+  }
+
+  .icon {
+    width: 45%; 
+  }
+
+  .icon img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .icon p {
+    font-size: 0.8rem; 
+  }
+
+  /* Adjust the map */
+  .map img {
+    max-width: 200px; 
+    height: auto;
+  }
+
+  /* Adjust service area layout */
+  .service-content {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+  }
+
+  .service-content img {
+    max-width: 80%;
+    margin-bottom: 20px; 
+  }
+
+  .service-text {
+    width: 100%;
+    text-align: center; 
+  }
+
+  /* Adjust articles section */
+  .article-box {
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+  .article {
+    width: 100%;
+    text-align: center;
+  }
+
+  .article img {
+    max-width: 80%; 
+    margin: 0 auto; 
+  }
+}
+
+
 
   
   
