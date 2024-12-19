@@ -21,8 +21,8 @@ body {
   color: white;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
   
 }
 
@@ -95,8 +95,8 @@ body {
 .service-area {
   background-color: white;
   padding: 40px 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .service-area h2 {
@@ -133,8 +133,8 @@ body {
 .articles {
   background-color: #f9f9f9;
   padding: 40px 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .articles h2 {
