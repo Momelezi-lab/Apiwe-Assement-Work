@@ -28,12 +28,11 @@
   .header-content h1 {
     font-size: 1rem;
     padding:20px;
-    text-align:left;
   }
   
   .icons {
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
     gap: 10px;
     padding-left: 20px;
   }
@@ -58,6 +57,7 @@
     width: 100%;
     max-width: 250px;
     height: 220px;
+    position:fixed
   }
   
   /* Service Area Section */
